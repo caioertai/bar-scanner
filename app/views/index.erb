@@ -1,0 +1,8 @@
+<ul>
+  <% @scrape.each do |product| %>
+    <li>
+      <h1><%= product[:name] %></h1>
+      <p><%= product[:composition] %></p>
+    </li>
+  <% end %>
+</ul>
